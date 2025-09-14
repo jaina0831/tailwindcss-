@@ -1,0 +1,148 @@
+.header{
+    height:1000px;
+	padding-top: 100px;
+	background-image: url(../images/ob.jpg );
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+    font-family: 'SNsanafonmaru';
+}
+.contact .form {
+	max-width: 500px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:rgb(255, 172, 130);
+    font-family: 'SNsanafonmaru';
+}
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color:rgb(255, 172, 130);
+	margin:7.5px 0;
+    box-shadow:2px 2px 4px rgb(10, 35, 97);
+    font-family: 'SNsanafonmaru';
+}
+input[type=submit] {
+  background-color:rgb(10, 35, 97);
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+  margin-top:30px ;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 172, 130);
+  color:rgb(10, 35, 97);
+}
+ .logo{
+    text-align: center;
+    height: 150px;
+} 
+.logoimg{
+    width: 150px;
+}
+.logoimg:hover{
+    transform: scale(1.3);
+}
+.socialmedia{
+    display: flex;
+    display: block;
+    text-decoration:none;
+    padding:0px 0px 0 0;
+    text-align: center;
+}
+.icon:hover{
+    transform: scale(1.1);
+  }
+.title3{
+    margin-bottom: 0px;
+    color:rgb(10, 35, 97);
+    font-family: 'SNsanafonmaru';
+    text-align: left;
+}
+.title4{
+    margin-bottom: 0px;
+    color:rgb(10, 35, 97);
+    font-family: 'SNsanafonmaru';
+    text-align: left;
+}
+.enter{
+    margin-bottom: 10px;
+}
+.titleline {
+	margin-top: 30px;
+    border:rgb(10, 35, 97) 1.5px solid ;
+    border-radius: 50px;
+}
+.title2line {
+	margin-top: 40px;
+    border:rgb(10, 35, 97) 1.5px solid ;
+    border-radius: 50px;
+}
+.Continue{
+    margin-top: 30px;
+    color: rgb(10, 35, 97);
+}
+.square{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.square:hover{
+    transform: scale(1.1);
+}
+.squareRemeber{
+    display: flex;
+    justify-content: center;
+}
+.Remeber{
+  color: rgb(10, 35, 97);
+}
+.Remeber:hover{
+  transform: scale(1.2);
+  color: rgb(255, 172, 130);
+}
+.Forget{
+    color:rgb(255, 176, 59);
+}
+.Forget:hover{
+    transform: scale(1.2);
+    color: rgb(255, 172, 130);
+}
+.dont{
+    font-family: 'SNsanafonmaru';
+    color: rgb(10, 35, 97);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Sign{
+    font-family: 'SNsanafonmaru';
+    color: rgb(10, 35, 97);
+    text-align: center;
+}
+.Sign:hover{
+  transform: scale(1.2);
+  color: rgb(255, 172, 130);
+}
+.sign{
+  color: rgb(10, 35, 97);
+    cursor: pointer;
+    font-size: 48px;
+    font-family: 'SNsanafonmaru';
+    text-align: center;
+}
+.back{
+ height: auto;
+  backdrop-filter:contrast(60%); /* 對比效果 */
+  -webkit-backdrop-filter:contrast(50%);
+  border-radius: 50px;
+  text-align: center;
+}

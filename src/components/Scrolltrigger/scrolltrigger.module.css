@@ -1,0 +1,67 @@
+html {
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+    /* scroll-padding: 4rem 0 4rem 0; */
+  }
+  .title {
+    margin: 0;
+    color:white;
+    font-size: 20rem;
+    font-weight: 600;
+    font-family: 'Cubic';
+    line-height: 1.2;
+    position: absolute;
+  }
+  
+  .bag {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scroll-snap-align:center;
+    
+    perspective: 500px;
+    background-size: cover;
+    background-position:0% 10%;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-color: #08080a;
+    /* background-image:
+    linear-gradient(to bottom, rgb(11,18,25,1), rgb(11,18,25,1)),
+    url(../../../public/images/bgtest1.jpg); */
+  }
+  
+  .bag div {
+    width: 70%;
+    height: auto;
+    position: relative;
+    max-height: 90vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  
+  .photo {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 2rem;
+  }
+  
+  /* progress {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5px;
+    bottom: 100px;
+    background-color: blueviolet;
+  } */
+  
+  

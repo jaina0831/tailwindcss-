@@ -1,0 +1,17 @@
+.box{
+    width: 100%;
+    height: 600px;
+}
+.innerbox{
+    width: 1000px;
+}
+.img{
+    width: 100%;   
+    height: 700px;
+    object-fit: cover; 
+    object-position: center;
+}
+.boxItem{
+    width: 100%;
+    height: 600px;
+} 

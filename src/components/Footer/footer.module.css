@@ -1,0 +1,107 @@
+/* Footer Style */
+.footer {
+    background-color: #231816;
+    color: white;
+    font-family: 'SNsanafonmaru';
+  }
+  .citys{
+    width: 100%;
+    height: auto;
+  }
+  .cityfooter{
+    display: flex;
+  }
+  .firstfooterbox{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80px;
+          margin: 0px 0 0 0px;
+          padding: 0px 0px 0px 0px;
+          border-radius: 3px;
+      }
+      .firstfooterlist{
+          display: flex;
+          padding: 0;
+          margin: 20px 0 0 40px;
+      }
+      .firstfooterlistitems{
+          display: flex;
+          width: 90px;
+          height: 60px;
+          margin: 0 0px 0 0;
+          list-style: none;
+      }
+      .firstfooterimg{
+          width: 50px;
+          height: 50px;
+          margin: 0px 0 0 0;
+      }
+      .firstfooterlistitemslink{
+          display: flex;
+          display: block;
+          text-decoration: none;
+          padding:0px 0px 0 0;
+          margin: 0px 0px 0 0;
+          width: 50px;
+          height: 50px;
+      }
+      .firstfooterlistitemslink:hover{
+       transform: scale(1.2);
+       background-color:  rgb(244, 144, 61);
+        border-radius: 50%;
+        }
+  
+  .footerbox{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+  }
+  .footerlist{
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .footerlistitems{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0px 0px 0 0;
+    list-style: none;
+  }
+  .footerlistitemslink{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 60px;
+    font-family: 'Cubic';
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(255, 255, 255)
+  }
+  .footerlistitemslink:hover{
+    transform: scale(1.2);
+    color: rgb(244, 144, 61);
+  }
+  .firsticonwrap{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerbelow {
+    background-color: #231816;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+  }

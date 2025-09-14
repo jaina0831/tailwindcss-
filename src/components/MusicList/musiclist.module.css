@@ -1,0 +1,25 @@
+.headerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  padding: 0;
+  font-family: 'Cubic';
+  }
+  
+  @media (min-width: 768px) {
+    .headerTitle {
+      font-size: 3rem;
+    }
+  }
+  .hrHeaderLine {
+    margin: 25px auto 30px;
+    padding: 0;
+    width: 100px;
+    border: 0;
+    border-top: solid 6px;
+    border-color: #f08840;
+    opacity: 1;
+  }

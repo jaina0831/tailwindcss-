@@ -1,0 +1,138 @@
+/* General Styles */
+/* RWD Container */
+
+.container {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container1 {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width:100%;
+  }
+}
+
+/* body */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Layout */
+.mainLayout {
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.layoutHeader {
+  grid-area: header;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+.layoutFooter {
+  grid-area: footer;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+.layoutContent {
+  grid-area: content;
+}
+.ant-input {
+	border-radius: 1rem;
+  font-family: 'Cubic';
+  color: #906a48;
+}
+
+.ant-input:hover {
+	border: 0.1rem #fe9e49 solid;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: 0.1rem #fe9e49 solid !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  /* border: 1px rgba(77, 112, 114, 0.2) solid !important; */
+  color:#fabc47 !important;
+}
+.ant-form-item-explain-error{
+  font-family: 'Cubic' !important;
+}
+.ant-form-item-label{
+  font-family: 'Cubic' !important;
+}
+.ant-modal{
+  font-family: 'Cubic' !important;
+}
+.ant-modal{
+  font-family: 'Cubic' !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner{
+  background-color: #fabc47!important;
+  border-color: #fabc47!important;
+}
+.ant-checkbox-checked .ant-checkbox-inner:hover{
+  background-color: #fabc47!important;
+  border-color: #fabc47!important;
+}
+.ant-checkbox .ant-checkbox-inner{
+  border-color: #fabc47 !important;
+}
+.ant-checkbox-.ant-checkbox-checked{
+  border-color: #fabc47 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  background-color: #fabc47!important;
+  border-color: white !important;
+}
+.ant-form label{
+  color: black;
+}
+.ant-checkbox .ant-checkbox-inner{
+  border-color: #fabc47 !important;
+}
+.ant-checkbox-checked:after{
+  border-color: #fabc47 !important;
+}

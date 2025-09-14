@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  font-family: 'Cubic';
+}
+.iconWrap {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2.5rem);
+}
+
+.hideInMobile {
+  display: none;
+}
+
+@media (min-width: 920px) {
+  .iconWrap {
+    right: 0rem;
+    top: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 3.5rem);
+  }
+
+  .hideInMobile {
+    display: block;
+  }
+}

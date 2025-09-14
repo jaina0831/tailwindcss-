@@ -1,0 +1,68 @@
+/* Cart */
+.btn {
+  width: 100%;
+  font-size: 1rem;
+  font-weight:900;
+  padding: 0.7rem;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f08840;
+}
+.btn:hover{
+  opacity: 0.8;
+  background-color: #f08840 !important;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px #676666 solid;
+}
+
+.image {
+  width: 6rem;
+  height: auto;
+  max-height: 4rem;
+  object-fit: cover;
+  object-position:center;
+  flex: 1 1;
+}
+
+.content {
+  margin-left: 2rem;
+  flex: 8 1;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.delete {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: right;
+  cursor: pointer;
+}
+.delete:hover{
+  transform: scale(1.5);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPrice {
+  font-weight: bold;
+  text-align: right;
+}
+

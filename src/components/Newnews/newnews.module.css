@@ -1,0 +1,96 @@
+.newsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  padding: 0;
+  color: white;
+  font-family: 'Cubic';
+}
+
+@media (min-width: 768px) {
+  .newsTitle {
+    font-size: 3rem;
+  }
+}
+
+.hrHeaderLine {
+  margin: 25px auto 30px;
+  padding: 0;
+  width: 100px;
+  border: 0;
+  border-top: solid 6px;
+  border-color: #f08840;
+  opacity: 1;
+}
+
+.tt {
+    background-size: cover;
+    background-position: 0 55%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  background-image:
+    linear-gradient(to bottom, rgb(0,0,0,0) 80%,rgba(0,0,0,1)),
+    url(../../../public/images/bgtest1.jpg);
+}
+.word{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4.5rem;
+  color: white;
+  font-family: 'Cubic';
+  font-weight: 600;
+  transform-origin: left;
+}
+@media (max-width: 768px) {
+  .word {
+    margin: 0 ;
+  }
+}
+.word h5{
+  width: 20rem;
+}
+.word p{
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  padding-left: 0.4rem;
+}
+.word h3{
+  cursor: pointer;
+}
+.word .originalword{
+  width: auto;
+  color: white;
+  position: absolute;
+  margin-top:2rem ;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  font-size: 1rem;
+}
+.click:hover{
+  transform: scale(1.2);
+}
+.button {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  font-family: 'Cubic';
+  transform-origin: left;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}

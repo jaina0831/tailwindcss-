@@ -1,0 +1,38 @@
+.item {
+   border-radius: 1%;
+   border: solid gray 1px;
+   padding: 0;
+}
+
+.info {
+   padding: 1.2rem;
+}
+
+.category {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0.2rem;
+   font-family: 'Cubic';
+}
+
+.name {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0.5rem;
+   font-family: 'Cubic';
+}
+
+.link {
+   text-decoration: none;
+   align-self: center;
+   color: #8183ff;
+}
+
+.textGray {
+   opacity: 0.6;
+}
+.media{
+ width: 10%;
+}

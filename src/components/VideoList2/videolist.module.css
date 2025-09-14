@@ -1,0 +1,14 @@
+.smalltitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    font-family: 'Cubic';
+  }
+  
+  .smalltitle h3 {
+    margin: 0 1rem;
+  }
